@@ -1,0 +1,5 @@
+tmp/*
+*.apk
+*.so
+unpacked/*
+*.pyc

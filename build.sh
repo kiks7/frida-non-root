@@ -6,7 +6,7 @@ if [ "$#" -ne 2 ]; then
 else
 	echo '[*] Cleaning stuff'
 	rm ssl.key
-	echo '[*] Buildingi '$1
+	echo '[*] Building '$1
 	apktool b -o $2 $1
 	echo '[*] Generating certiciate'
 

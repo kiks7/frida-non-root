@@ -9,14 +9,14 @@ Frida-gadgets are called at the startup of the app and will listen on port 27042
 - Decode the APK and locate the Main Activity reading the AndroidManifest.xml
 - Add frida-gadgets-[arch].so into libs folder
 - Inject smali code into the Main Activity
-- Rebuild APK, Sign and zipalign.
+- Rebuild APK, zipalign and sign.
 
 ## Reqs:
-- apktool
-- zipalign
 - python
-- keytool & jarsign (to sign it)
-- *nix (Native commands like ['mv','rm'] are used, sorry for Windows users [just fire up a VM || docker || what else])
+- apktool
+- keytool
+- zipalign & apksigner (part of the Android SDK)
+- \*nix (Native commands like ['mv','rm'] are used, sorry for Windows users [just fire up a VM || docker || what else]) :}}}
 
 ## Install/Usage:
 
