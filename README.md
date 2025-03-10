@@ -26,3 +26,6 @@ chmod +x main.py
 ./main.py --help
 ./main.py -i <input APK> -o <output NAME>
 ```
+
+## EOL
+I didn't continue the project, I wrote it to automate the process but I'm no longer mantaining it and I know it's not the best code in the earth.
